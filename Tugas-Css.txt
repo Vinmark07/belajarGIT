@@ -1,42 +1,8 @@
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-css)
-$ git checkout -b Tugas-css
+git checkout -b Tugas-css
 touch Tugas-Css.txt
-Switched to a new branch 'Tugas-css'
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-css)
-$ git add Tugas-Css.txt
+git add Tugas-Css.txt
 git commit -m "Menambahkan file Tugas-Css.txt"
 git push origin Tugas-css
-[Tugas-css 8c9fb1b] Menambahkan file Tugas-Css.txt
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-Css.txt
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (2/2), 256 bytes | 256.00 KiB/s, done.
-Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-remote:
-remote: Create a pull request for 'Tugas-css' on GitHub by visiting:
-remote:      https://github.com/Vinmark07/belajarGIT/pull/new/Tugas-css
-remote:
-To https://github.com/Vinmark07/belajarGIT.git
- * [new branch]      Tugas-css -> Tugas-css
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-css)
-$ git checkout main
+git checkout main
 git merge Tugas-css
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-Updating 8b1b65f..8c9fb1b
-Fast-forward
- Tugas-Css.txt | 0
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-Css.txt
-
-crysa@Chaes MINGW64 ~/belajarGIT (main)
-$ git push origin main
-Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Vinmark07/belajarGIT.git
-   8b1b65f..8c9fb1b  main -> main
+git push origin main
