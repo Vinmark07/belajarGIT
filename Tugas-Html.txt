@@ -1,0 +1,8 @@
+git checkout -b Tugas-html
+touch Tugas-Html.txt
+git add Tugas-Html.txt
+git commit -m "Menambahkan file Tugas-Html.txt"
+git push origin Tugas-html
+git checkout main
+git merge Tugas-html
+git push origin main
