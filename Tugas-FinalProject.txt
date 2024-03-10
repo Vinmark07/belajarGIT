@@ -1,43 +1,8 @@
-crysa@Chaes MINGW64 ~/belajarGIT (main)
-$ git checkout -b Tugas-finalProject
+git checkout -b Tugas-finalProject
 touch Tugas-FinalProject.txt
-Switched to a new branch 'Tugas-finalProject'
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-finalProject)
-$ git add Tugas-FinalProject.txt
+git add Tugas-FinalProject.txt
 git commit -m "Menambahkan file Tugas-FinalProject.txt"
 git push origin Tugas-finalProject
-[Tugas-finalProject 23f3b2c] Menambahkan file Tugas-FinalProject.txt
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-FinalProject.txt
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (2/2), 271 bytes | 271.00 KiB/s, done.
-Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-remote:
-remote: Create a pull request for 'Tugas-finalProject' on GitHub by visiting:
-remote:      https://github.com/Vinmark07/belajarGIT/pull/new/Tugas-finalProjec
-remote:
-To https://github.com/Vinmark07/belajarGIT.git
- * [new branch]      Tugas-finalProject -> Tugas-finalProject
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-finalProject)
-$ git checkout main
+git checkout main
 git merge Tugas-finalProject
-
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-Updating 80fb881..23f3b2c
-Fast-forward
- Tugas-FinalProject.txt | 0
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-FinalProject.txt
-
-crysa@Chaes MINGW64 ~/belajarGIT (main)
-$ git push origin main
-Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Vinmark07/belajarGIT.git
-   80fb881..23f3b2c  main -> main
+git push origin main
