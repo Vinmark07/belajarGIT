@@ -1,42 +1,8 @@
-crysa@Chaes MINGW64 ~/belajarGIT (main)
-$ git checkout -b Tugas-midProject
+git checkout -b Tugas-midProject
 touch Tugas-MidProject.txt
-Switched to a new branch 'Tugas-midProject'
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-midProject)
-$ git add Tugas-MidProject.txt
+git add Tugas-MidProject.txt
 git commit -m "Menambahkan file Tugas-MidProject.txt"
 git push origin Tugas-midProject
-[Tugas-midProject 462aa7b] Menambahkan file Tugas-MidProject.txt
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-MidProject.txt
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (2/2), 267 bytes | 267.00 KiB/s, done.
-Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-remote:
-remote: Create a pull request for 'Tugas-midProject' on GitHub by visiting:
-remote:      https://github.com/Vinmark07/belajarGIT/pull/new/Tugas-midProject
-remote:
-To https://github.com/Vinmark07/belajarGIT.git
- * [new branch]      Tugas-midProject -> Tugas-midProject
-
-crysa@Chaes MINGW64 ~/belajarGIT (Tugas-midProject)
-$ git checkout main
+git checkout main
 git merge Tugas-midProject
-Switched to branch 'main'
-Your branch is up to date with 'origin/main'.
-Updating 2949707..462aa7b
-Fast-forward
- Tugas-MidProject.txt | 0
- 1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 Tugas-MidProject.txt
-
-crysa@Chaes MINGW64 ~/belajarGIT (main)
-$ git push origin main
-Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
-To https://github.com/Vinmark07/belajarGIT.git
-   2949707..462aa7b  main -> main
+git push origin main
