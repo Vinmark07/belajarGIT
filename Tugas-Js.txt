@@ -1,0 +1,42 @@
+crysa@Chaes MINGW64 ~/belajarGIT (main)
+$ git checkout -b Tugas-js
+touch Tugas-Js.txt
+Switched to a new branch 'Tugas-js'
+
+crysa@Chaes MINGW64 ~/belajarGIT (Tugas-js)
+$ git add Tugas-Js.txt
+git commit -m "Menambahkan file Tugas-Js.txt"
+git push origin Tugas-js
+[Tugas-js 2949707] Menambahkan file Tugas-Js.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tugas-Js.txt
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 252 bytes | 252.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'Tugas-js' on GitHub by visiting:
+remote:      https://github.com/Vinmark07/belajarGIT/pull/new/Tugas-js
+remote:
+To https://github.com/Vinmark07/belajarGIT.git
+ * [new branch]      Tugas-js -> Tugas-js
+
+crysa@Chaes MINGW64 ~/belajarGIT (Tugas-js)
+$ git checkout main
+git merge Tugas-js
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Updating 8c9fb1b..2949707
+Fast-forward
+ Tugas-Js.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Tugas-Js.txt
+
+crysa@Chaes MINGW64 ~/belajarGIT (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Vinmark07/belajarGIT.git
+   8c9fb1b..2949707  main -> main
